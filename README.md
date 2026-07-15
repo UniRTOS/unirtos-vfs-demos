@@ -40,19 +40,19 @@ unirtos-cli ls-demos
 创建本 demo 工程：
 
 ```bash
-unirtos-cli new -r unirtos_vfs_demos
+unirtos-cli new -r unirtos-vfs-demos
 ```
 
 如需指定版本：
 
 ```bash
-unirtos-cli new -r unirtos_vfs_demos -v 1.0.0
+unirtos-cli new -r unirtos-vfs-demos -v 1.0.0
 ```
 
 ### 3. 进入工程并编译
 
 ```bash
-cd unirtos_vfs_demos-1.0.0
+cd unirtos-vfs-demos-1.0.0
 unirtos-cli env-setup
 unirtos-cli build
 ```
